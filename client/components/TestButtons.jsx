@@ -5,7 +5,7 @@ import ButtonGroup from 'react-bootstrap/lib/ButtonGroup';
 import DropdownButton from 'react-bootstrap/lib/DropdownButton';
 import MenuItem from 'react-bootstrap/lib/MenuItem';
 
-export default class TestComponent extends React.Component {
+export default class TestButtons extends React.Component {
   render() {
     return (
       <div>
