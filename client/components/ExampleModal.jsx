@@ -4,13 +4,14 @@ import Button from 'react-bootstrap/lib/Button';
 import Popover from 'react-bootstrap/lib/Popover';
 import Tooltip from 'react-bootstrap/lib/Tooltip';
 import OverlayTrigger from 'react-bootstrap/lib/OverlayTrigger';
-import {bindAll} from '../functions/bindAll';
+import {es6BindAll} from 'es6bindall';
+
 
 export default class ExampleModal extends React.Component {
   constructor(props) {
     super(props);
     var that = this;
-    bindAll(this, ["open", "close"]); // Auto binding of methods no longer true in ES6 React syntax
+    es6BindAll(this, ["open", "close"]); // Auto binding of methods no longer true in ES6 React syntax
     this.state = {showModal: false};
   }
   close() {

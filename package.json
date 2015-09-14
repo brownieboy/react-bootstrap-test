@@ -5,6 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/brownieboy/react-webpack-hot-boilerplate.git",
   "dependencies": {
+    "es6bindall": "0.0.1",
     "react": "^0.13.3",
     "react-bootstrap": "^0.25.1"
   },
